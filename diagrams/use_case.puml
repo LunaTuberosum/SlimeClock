@@ -1,0 +1,18 @@
+@startuml
+skin rose
+
+package system {
+    (Set Work Timer)
+    (Start Work Timer) .. (Show Timer End) : Timer Finishes
+    (Set Rest Timer)
+    (Start Rest Timer) .. (Show Timer End) : Timer Finishes
+    (Switch Between Stages)
+}
+
+:User: -> (Set Work Timer)
+:User: -> (Start Work Timer)
+:User: -> (Set Rest Timer)
+:User: -> (Start Rest Timer)
+:User: -> (Switch Between Stages)
+ 
+@enduml
