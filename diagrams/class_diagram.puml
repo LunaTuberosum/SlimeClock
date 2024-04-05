@@ -1,0 +1,50 @@
+@startuml
+skin rose
+
+class Entity {
+
+}
+
+class Display {
+
+}
+
+class GameLoop { 
+
+}
+
+class KeyHandler {
+
+}
+
+enum GameState {
+
+}
+
+class Level {
+
+}
+
+abstract class Component {
+
+}
+
+class Animator {
+
+}
+
+class SpriteRenderer {
+
+}
+
+class MovementController {
+
+}
+
+class UIObject {
+
+}
+
+
+
+@enduml
